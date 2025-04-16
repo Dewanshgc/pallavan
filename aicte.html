@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/x-icon" href="/images/logo_nobg.png">
+  <title>AICTE Approvals | Pallavan College of Engineering</title>
+
+  <!-- Bootstrap, Google Fonts, AOS, Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* Navbar styling (same as reference) */
+    .navbar {
+      background-color: #ffffff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar .navbar-brand span {
+      color: #0d6efd;
+    }
+
+    .navbar .navbar-nav .nav-link {
+      color: #0d6efd !important;
+      margin: 0 10px;
+      font-weight: 500;
+      position: relative;
+    }
+
+    .navbar .nav-link:hover {
+      color: #ffc107 !important;
+    }
+
+    .navbar .nav-link.fancy-link::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffc107;
+      transition: width 0.3s ease;
+    }
+
+    .navbar .nav-link.fancy-link:hover::after {
+      width: 100%;
+    }
+
+    .navbar .navbar-brand img {
+      height: 40px;
+      width: 40px;
+    }
+
+    /* PDF Section */
+    .aicte-section {
+      padding: 80px 20px;
+    }
+
+    .pdf-box {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .pdf-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    .pdf-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .btn-download {
+      background-color: #0d6efd;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 18px;
+      transition: 0.3s ease;
+    }
+
+    .btn-download:hover {
+      background-color: #0b5ed7;
+    }
+
+    footer {
+      background: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+        <img src="images/logo.jpg" alt="Pallavan Logo">
+        <span class="ms-2 fs-5">PALLAVAN COLLEGE OF ENGINEERING</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link fancy-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="admissions.html">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="placements.html">Placements</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="achievements.html">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link fancy-link" href="aicte.html">AICTE</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- AICTE Documents Section -->
+  <section class="aicte-section container" style="margin-top: 100px;">
+    <h2 class="text-center mb-5 fw-bold" data-aos="fade-up">AICTE EOA Reports</h2>
+    <div class="row">
+      <!-- Loop starts -->
+      <!-- Repeat for each year -->
+      <!-- Sample for 1997-1998 -->
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 1997–1998</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 1998-1999</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 1999-2000</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2000-2001</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2001-2002</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2002-2003</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2003-2004</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2004-2005</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2005-2006</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2006-2007</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2007-2008</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2008-2009</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2009-2010</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2010-2011</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2011-2012</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2012-2013</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2013-2014</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2014-2015</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2015-2016</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2016-2017</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2017-2018</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2018-2019</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2019-2020</div>
+          <a href="aicte_docs/EOA_REPORT_1997_1998.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2020-2021</div>
+          <a href="documents/eoa_2020_2021.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2021-2022</div>
+          <a href="documents/eoa_2021_2022.PDF" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2022-2023</div>
+          <a href="documents/" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2023-2024</div>
+          <a href="documents/eoa_2023_2024.PDF" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT 2024-2025</div>
+          <a href="documents/eoa_2024_2025.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Pallavan College of Engineering. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // OPTIONAL: Auto generate year blocks
+    const container = document.querySelector(".aicte-section .row");
+    for (let year = 1997; year <= 2024; year++) {
+      const nextYear = year + 1;
+      const div = document.createElement("div");
+      div.className = "col-md-6";
+      div.setAttribute("data-aos", "fade-up");
+      div.innerHTML = `
+        <div class="pdf-box d-flex justify-content-between align-items-center">
+          <div class="pdf-title">EOA REPORT ${year}–${nextYear}</div>
+          <a href="documents/eoa_${year}_${nextYear}.pdf" class="btn btn-download" download>
+            <i class="fas fa-download me-1"></i>Download
+          </a>
+        </div>
+      `;
+      container.appendChild(div);
+    }
+  </script>
+</body>
+</html>
