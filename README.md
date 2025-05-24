@@ -1,1 +1,1 @@
-# pallavan
+# Pallavan College of Engineeering
